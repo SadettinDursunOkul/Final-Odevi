@@ -1,0 +1,20 @@
+C:\Users\sadet\source\repos\Sadettin Dursun-Görsel Programlama 2-Vize\Sadettin Dursun-Görsel Programlama 2-Vize\bin\Debug\Sadettin Dursun-Görsel Programlama 2-Vize.exe.config
+C:\Users\sadet\source\repos\Sadettin Dursun-Görsel Programlama 2-Vize\Sadettin Dursun-Görsel Programlama 2-Vize\bin\Debug\Sadettin Dursun-Görsel Programlama 2-Vize.exe
+C:\Users\sadet\source\repos\Sadettin Dursun-Görsel Programlama 2-Vize\Sadettin Dursun-Görsel Programlama 2-Vize\bin\Debug\Sadettin Dursun-Görsel Programlama 2-Vize.pdb
+C:\Users\sadet\source\repos\Sadettin Dursun-Görsel Programlama 2-Vize\Sadettin Dursun-Görsel Programlama 2-Vize\obj\Debug\Sadettin Dursun-Görsel Programlama 2-Vize.csproj.AssemblyReference.cache
+C:\Users\sadet\source\repos\Sadettin Dursun-Görsel Programlama 2-Vize\Sadettin Dursun-Görsel Programlama 2-Vize\obj\Debug\Sadettin Dursun-Görsel Programlama 2-Vize.csproj.SuggestedBindingRedirects.cache
+C:\Users\sadet\source\repos\Sadettin Dursun-Görsel Programlama 2-Vize\Sadettin Dursun-Görsel Programlama 2-Vize\obj\Debug\Sadettin_Dursun_Görsel_Programlama_2_Vize.Form1.resources
+C:\Users\sadet\source\repos\Sadettin Dursun-Görsel Programlama 2-Vize\Sadettin Dursun-Görsel Programlama 2-Vize\obj\Debug\Sadettin_Dursun_Görsel_Programlama_2_Vize.Properties.Resources.resources
+C:\Users\sadet\source\repos\Sadettin Dursun-Görsel Programlama 2-Vize\Sadettin Dursun-Görsel Programlama 2-Vize\obj\Debug\Sadettin Dursun-Görsel Programlama 2-Vize.csproj.GenerateResource.cache
+C:\Users\sadet\source\repos\Sadettin Dursun-Görsel Programlama 2-Vize\Sadettin Dursun-Görsel Programlama 2-Vize\obj\Debug\Sadettin Dursun-Görsel Programlama 2-Vize.csproj.CoreCompileInputs.cache
+C:\Users\sadet\source\repos\Sadettin Dursun-Görsel Programlama 2-Vize\Sadettin Dursun-Görsel Programlama 2-Vize\obj\Debug\Sadettin Dursun-Görsel Programlama 2-Vize.exe
+C:\Users\sadet\source\repos\Sadettin Dursun-Görsel Programlama 2-Vize\Sadettin Dursun-Görsel Programlama 2-Vize\obj\Debug\Sadettin Dursun-Görsel Programlama 2-Vize.pdb
+C:\Users\sadet\source\repos\Sadettin Dursun-Görsel Programlama 2-Vize\Sadettin Dursun-Görsel Programlama 2-Vize\obj\Debug\Sadettin_Dursun_Görsel_Programlama_2_Vize.Uçak.resources
+C:\Users\sadet\source\repos\Sadettin Dursun-Görsel Programlama 2-Vize\Sadettin Dursun-Görsel Programlama 2-Vize\obj\Debug\Sadettin_Dursun_Görsel_Programlama_2_Vize.Sefer.resources
+C:\Users\sadet\source\repos\Sadettin Dursun-Görsel Programlama 2-Vize\Sadettin Dursun-Görsel Programlama 2-Vize\obj\Debug\Sadettin_Dursun_Görsel_Programlama_2_Vize.Rezervasyon.resources
+C:\Users\sadet\source\repos\Sadettin Dursun-Görsel Programlama 2-Vize\Sadettin Dursun-Görsel Programlama 2-Vize\obj\Debug\Sadettin_Dursun_Görsel_Programlama_2_Vize.Yolcu.resources
+C:\Users\sadet\source\repos\Sadettin Dursun-Görsel Programlama 2-Vize\Sadettin Dursun-Görsel Programlama 2-Vize\bin\Debug\EntityFramework.dll
+C:\Users\sadet\source\repos\Sadettin Dursun-Görsel Programlama 2-Vize\Sadettin Dursun-Görsel Programlama 2-Vize\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\sadet\source\repos\Sadettin Dursun-Görsel Programlama 2-Vize\Sadettin Dursun-Görsel Programlama 2-Vize\bin\Debug\EntityFramework.xml
+C:\Users\sadet\source\repos\Sadettin Dursun-Görsel Programlama 2-Vize\Sadettin Dursun-Görsel Programlama 2-Vize\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\sadet\source\repos\Sadettin Dursun-Görsel Programlama 2-Vize\Sadettin Dursun-Görsel Programlama 2-Vize\obj\Debug\Sadettin Dursun-Görsel Programlama 2-Vize.csproj.CopyComplete

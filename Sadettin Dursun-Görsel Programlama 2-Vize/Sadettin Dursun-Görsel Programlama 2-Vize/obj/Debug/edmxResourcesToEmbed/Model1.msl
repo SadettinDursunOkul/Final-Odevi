@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="UcakModelStoreContainer" CdmEntityContainer="UcakEntities">
+    <EntitySetMapping Name="TBL_BİLET">
+      <EntityTypeMapping TypeName="UcakModel.TBL_BİLET">
+        <MappingFragment StoreEntitySet="TBL_BİLET">
+          <ScalarProperty Name="Bilet_Id" ColumnName="Bilet_Id" />
+          <ScalarProperty Name="Yolcu_Id" ColumnName="Yolcu_Id" />
+          <ScalarProperty Name="Sefer_Id" ColumnName="Sefer_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_SEFERLER">
+      <EntityTypeMapping TypeName="UcakModel.TBL_SEFERLER">
+        <MappingFragment StoreEntitySet="TBL_SEFERLER">
+          <ScalarProperty Name="Sefer_Id" ColumnName="Sefer_Id" />
+          <ScalarProperty Name="Kalkış_Yer" ColumnName="Kalkış_Yer" />
+          <ScalarProperty Name="Varış_Yer" ColumnName="Varış_Yer" />
+          <ScalarProperty Name="Kalkış_Tarih" ColumnName="Kalkış_Tarih" />
+          <ScalarProperty Name="Varış_Tarih" ColumnName="Varış_Tarih" />
+          <ScalarProperty Name="Ucak_Id" ColumnName="Ucak_Id" />
+          <ScalarProperty Name="Ücret" ColumnName="Ücret" />
+          <ScalarProperty Name="Sefer_Ad" ColumnName="Sefer_Ad" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_UCAK">
+      <EntityTypeMapping TypeName="UcakModel.TBL_UCAK">
+        <MappingFragment StoreEntitySet="TBL_UCAK">
+          <ScalarProperty Name="Ucak_Id" ColumnName="Ucak_Id" />
+          <ScalarProperty Name="Ucak_Ad" ColumnName="Ucak_Ad" />
+          <ScalarProperty Name="Koltuk_Sayısı" ColumnName="Koltuk_Sayısı" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_YOLCU">
+      <EntityTypeMapping TypeName="UcakModel.TBL_YOLCU">
+        <MappingFragment StoreEntitySet="TBL_YOLCU">
+          <ScalarProperty Name="Yolcu_Id" ColumnName="Yolcu_Id" />
+          <ScalarProperty Name="İsim" ColumnName="İsim" />
+          <ScalarProperty Name="Yas" ColumnName="Yas" />
+          <ScalarProperty Name="Cinsiyet" ColumnName="Cinsiyet" />
+          <ScalarProperty Name="Yaşlı_Mı" ColumnName="Yaşlı_Mı" />
+          <ScalarProperty Name="Engelli_Mi" ColumnName="Engelli_Mi" />
+          <ScalarProperty Name="Koltuk_No" ColumnName="Koltuk_No" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

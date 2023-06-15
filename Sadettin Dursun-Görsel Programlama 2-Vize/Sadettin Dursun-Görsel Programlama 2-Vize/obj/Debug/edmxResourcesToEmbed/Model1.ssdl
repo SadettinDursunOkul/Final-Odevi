@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="UcakModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="TBL_BİLET">
+    <Key>
+      <PropertyRef Name="Bilet_Id" />
+    </Key>
+    <Property Name="Bilet_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Yolcu_Id" Type="int" />
+    <Property Name="Sefer_Id" Type="int" />
+  </EntityType>
+  <EntityType Name="TBL_SEFERLER">
+    <Key>
+      <PropertyRef Name="Sefer_Id" />
+    </Key>
+    <Property Name="Sefer_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Kalkış_Yer" Type="varchar" MaxLength="50" />
+    <Property Name="Varış_Yer" Type="varchar" MaxLength="50" />
+    <Property Name="Kalkış_Tarih" Type="date" />
+    <Property Name="Varış_Tarih" Type="date" />
+    <Property Name="Ucak_Id" Type="int" />
+    <Property Name="Ücret" Type="varchar" MaxLength="50" />
+    <Property Name="Sefer_Ad" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="TBL_UCAK">
+    <Key>
+      <PropertyRef Name="Ucak_Id" />
+    </Key>
+    <Property Name="Ucak_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Ucak_Ad" Type="varchar" MaxLength="50" />
+    <Property Name="Koltuk_Sayısı" Type="int" />
+  </EntityType>
+  <EntityType Name="TBL_YOLCU">
+    <Key>
+      <PropertyRef Name="Yolcu_Id" />
+    </Key>
+    <Property Name="Yolcu_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="İsim" Type="varchar" MaxLength="50" />
+    <Property Name="Yas" Type="varchar" MaxLength="3" />
+    <Property Name="Cinsiyet" Type="varchar" MaxLength="50" />
+    <Property Name="Yaşlı_Mı" Type="varchar" MaxLength="50" />
+    <Property Name="Engelli_Mi" Type="varchar" MaxLength="50" />
+    <Property Name="Koltuk_No" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK_TBL_BİLET_TBL_SEFERLER">
+    <End Role="TBL_SEFERLER" Type="Self.TBL_SEFERLER" Multiplicity="0..1" />
+    <End Role="TBL_BİLET" Type="Self.TBL_BİLET" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TBL_SEFERLER">
+        <PropertyRef Name="Sefer_Id" />
+      </Principal>
+      <Dependent Role="TBL_BİLET">
+        <PropertyRef Name="Sefer_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TBL_BİLET_TBL_YOLCU">
+    <End Role="TBL_YOLCU" Type="Self.TBL_YOLCU" Multiplicity="0..1" />
+    <End Role="TBL_BİLET" Type="Self.TBL_BİLET" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TBL_YOLCU">
+        <PropertyRef Name="Yolcu_Id" />
+      </Principal>
+      <Dependent Role="TBL_BİLET">
+        <PropertyRef Name="Yolcu_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TBL_SEFERLER_TBL_UCAK">
+    <End Role="TBL_UCAK" Type="Self.TBL_UCAK" Multiplicity="0..1" />
+    <End Role="TBL_SEFERLER" Type="Self.TBL_SEFERLER" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TBL_UCAK">
+        <PropertyRef Name="Ucak_Id" />
+      </Principal>
+      <Dependent Role="TBL_SEFERLER">
+        <PropertyRef Name="Ucak_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="UcakModelStoreContainer">
+    <EntitySet Name="TBL_BİLET" EntityType="Self.TBL_BİLET" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TBL_SEFERLER" EntityType="Self.TBL_SEFERLER" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TBL_UCAK" EntityType="Self.TBL_UCAK" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TBL_YOLCU" EntityType="Self.TBL_YOLCU" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_TBL_BİLET_TBL_SEFERLER" Association="Self.FK_TBL_BİLET_TBL_SEFERLER">
+      <End Role="TBL_SEFERLER" EntitySet="TBL_SEFERLER" />
+      <End Role="TBL_BİLET" EntitySet="TBL_BİLET" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TBL_BİLET_TBL_YOLCU" Association="Self.FK_TBL_BİLET_TBL_YOLCU">
+      <End Role="TBL_YOLCU" EntitySet="TBL_YOLCU" />
+      <End Role="TBL_BİLET" EntitySet="TBL_BİLET" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TBL_SEFERLER_TBL_UCAK" Association="Self.FK_TBL_SEFERLER_TBL_UCAK">
+      <End Role="TBL_UCAK" EntitySet="TBL_UCAK" />
+      <End Role="TBL_SEFERLER" EntitySet="TBL_SEFERLER" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
